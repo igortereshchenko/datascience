@@ -1,0 +1,6 @@
+dic = {"id": "9996 unique values"
+        "count": "[null] - 100%"
+        "dimension": "[null] - 90%
+                       6.0 in x 6.0 in x 1.0 - 1%"
+         "flavours": "[null] - 100%"
+         }
