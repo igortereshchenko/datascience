@@ -1,0 +1,5 @@
+provider_id: The 6-digit identification number for the home health agency on the claim.
+state: The state where the home health agency is located, as reported in POS file. The fifty U.S. states and the District of Columbia
+percent_of_beneficiaries_with_cancer: Percent of beneficiaries meeting the CCW chronic condition algorithms for cancer. Includes breast cancer, colorectal cancer, 
+Percent of beneficiaries meeting the CCW chronic condition algorithms for cancer. Includes breast cancer, colorectal cancer, 
+percent_of_beneficiaries_with_depression: Percent of beneficiaries meeting the CCW chronic condition algorithm for depression.
