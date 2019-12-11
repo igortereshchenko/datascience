@@ -1,0 +1,4 @@
+provider_id - The 6-digit identification number for the home health agency on the claim.
+agency_name - The home health agency name, as reported in the POS file.
+male_beneficiaries-Number of male beneficiaries.
+female_beneficiaries - Number of female beneficiaries.
