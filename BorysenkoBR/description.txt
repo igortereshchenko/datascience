@@ -1,0 +1,4 @@
+provider_id - The 6-digit identification number for the home health agency on the claim.
+city - The city where the home health agency is located, as reported in the POS file.
+percent_of_beneficiaries_with_osteoporosis - Percent of beneficiaries meeting the CCW chronic condition algorithm for osteoporosis.
+percent_of_beneficiaries_with_schizophrenia - Percent of beneficiaries meeting the CCW chronic condition algorithm for schizophrenia and other psychotic disorders.
