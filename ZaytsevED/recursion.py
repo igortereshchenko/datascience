@@ -6,3 +6,4 @@ def recursion(dataset, count=0):
             print(dataset[lst_keys[count]])
         count += 1
         recursion(dataset, count)
+    return 0
