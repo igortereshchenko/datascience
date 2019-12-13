@@ -1,4 +1,4 @@
-from TitimyrOY.dataset_structure import dataset
+from TitomyrOY.dataset_structure import dataset
 
 dataset['name4'] = {
         'size': 39,
