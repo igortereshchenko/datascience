@@ -1,6 +1,3 @@
-from dataset_struct import dataset
-
-
 def recursion(dataset, count=0):
     if count in range(len(dataset.keys())):
         lst_keys = list(dataset.keys())
@@ -9,6 +6,3 @@ def recursion(dataset, count=0):
             print(dataset[lst_keys[count]])
         count += 1
         recursion(dataset, count)
-
-
-recursion(dataset)
