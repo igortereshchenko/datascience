@@ -18,7 +18,7 @@ else:
     print("Weight is incorrect")
 
 
-if features_validator(" "):
+if features_validator('[{"key":"Pattern","value":["Solid"]},{"key":"Worldstock Country","value":["Peru"]},{"key":"Neck Style","value":["Scoop Neck"]}]'):
     print("Features are correct")
 else:
     print("Features are incorrect")
