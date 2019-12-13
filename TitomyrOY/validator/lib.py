@@ -15,7 +15,7 @@ def name_validator(name):
 def size_validator(size):
     """
     if validation is correct return size
-    :param name_of_product: float , size
+    :param size_of_product: float , size
     :return: float, size
     """
     if match('^\d+\.{0,1}\d*$', size):
@@ -26,7 +26,7 @@ def size_validator(size):
 def weight_validator(weight):
     """
     if validation is correct return weight
-    :param name_of_product: float, weight
+    :param weight_of_product: float, weight
     :return: float, weight
     """
     if match('^\d+\.{0,1}\d*$', weight):
@@ -37,7 +37,7 @@ def weight_validator(weight):
 def features_validator(features):
     """
     if validation is correct return features
-    :param name_of_product: str , features
+    :param features_of_product: str , features
     :return:str, features
     """
     if match('^\[({"key":"(([A-Z][a-z]*)\s{0,1})*","value":\["(([A-Z][a-z]*)\s{0,1})*"\]\},{0,1})*\]$', features):
