@@ -2,7 +2,7 @@ data_set = {
     'Bronx':
             {
             'spc_common':{
-                            'London Planetree',
+                            'London Planetree'
                             },
             'horz_grate':'no',
             'cen_year':'2005'
