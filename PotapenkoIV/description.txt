@@ -1,5 +1,6 @@
 horz_other - Plantings present. [type: string]
 spc_latin - The scientific name of the species. [type: string]
 tree_loc - Establishes the location of the tree in relation to the address provided. [type: string]
-cen_year - This is the year the tree was inventoried in. Data collection for the 2005 census spanned multiple seasons.
+cen_year - This is the year the tree was inventoried in.
+Data collection for the 2005 census spanned multiple seasons.
 Data is in YYYY format. [type: integer]
