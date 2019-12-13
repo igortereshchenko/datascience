@@ -40,6 +40,6 @@ def features_validator(features):
     :param name_of_product: str , features
     :return:str, features
     """
-    if match('^\[({"key":"([A-Z][a-z])*","value":\["([A-Z][a-z])*"\]\},{0,1})*\]$', features):
+    if match('^\[({"key":\s"(([A-Z][a-z])\s)*",\s"value":\["(([A-Z][a-z])\s)*"\]\},{0,1})*\]$', features):
         return True
     return False
