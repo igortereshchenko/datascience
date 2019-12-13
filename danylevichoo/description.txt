@@ -1,0 +1,5 @@
+﻿name - Данилевич Олександр
+host-id - (type:int) - id хоста 
+bed-type - (type:str) - тип ліжка
+price - (type:float) - ціна за ніч
+extra-people - (type:float) - додаткова ціна за людину
