@@ -1,0 +1,4 @@
+zip_city -- City, as derived from the zipcode.
+cb_num -- Community Board that the tree falls in.
+borocode -- Borough tree is in, using a one-digit borough code: 1 – Manhattan, 2 – Bronx, 3 – Brooklyn, 4 – Queens, 5 – Staten Island.
+nta_name -- Nta name for the neighborhood tabulation area the tree point is in.
