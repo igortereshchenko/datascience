@@ -7,7 +7,7 @@ def name_validator(name):
     :param name_of_product: str , name
     :return:str, name
     """
-    if match('^([a-zA-Z]\s{0,1})*$', name):
+    if match('^([a-zA-Z()'']\s{0,1})*$', name):
         return True
     return False
 
