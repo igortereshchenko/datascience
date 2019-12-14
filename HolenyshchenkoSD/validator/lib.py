@@ -19,3 +19,10 @@ def percent_of_beneficiaries_with_depression_validator(txt):
         return txt
     else:
         print('It can\'t be a percent_of_depression_with_depression')
+        
+        
+def provider_id_validator (txt):
+    if re.match(r'\d\d\d\d\d\d', txt):
+        return txt
+    else:
+        print('It can\'t be a provider_id')
