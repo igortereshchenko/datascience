@@ -1,4 +1,3 @@
-
 def state_validator(txt):
     pattern = re.compile('([A-Z])([A-Z])')
     if re.match(pattern, txt):
@@ -8,16 +7,15 @@ def state_validator(txt):
 
 
 def percent_of_beneficiaries_with_cancer_validator(txt):
-    pattern = re.compile('(1)*\d*\d+')
-    if re.match(pattern, txt):
+    pattern = re.compile(r'100|\d?\d+')
+    if re.match(r'100|\d?\d', txt) and float(txt) <= 100:
         return txt
     else:
         print('It can\'t be a percent_of_beneficiaries_with_cancer')
 
 
 def percent_of_beneficiaries_with_depression_validator(txt):
-    pattern = re.compile('(1)*\d*\d+')
-    if re.match(pattern, txt):
+    if re.match(r'100|\d?\d', txt) and float(txt) <= 100:
         return txt
     else:
-        print('It can\'t be a percent_of_depression_with_cancer')
+        print('It can\'t be a percent_of_depression_with_depression')
