@@ -1,0 +1,5 @@
+dic = {"id": "Unique id of an item"
+        "count": "Derby dress shoes"
+        "dimension": "The size of shoes"
+         "flavors": "Colours"
+         }
