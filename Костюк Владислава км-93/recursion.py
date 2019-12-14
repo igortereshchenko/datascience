@@ -4,4 +4,4 @@ def recursion(dataset):
         avarage_age = int(dataset[provider_id]['avarage_age'])
 
         if age > 30 and stroke >5:
-            print('Zip_code:' + str(zip_code) + '\nProvider_id:' + str(provider_id) + \nAvarage_age:' + str(avarage_age))
+            print('Zip_code:' + str(zip_code) + '\nProvider_id:' + str(provider_id) + '\nAvarage_age:' + str(avarage_age))
