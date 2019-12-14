@@ -1,0 +1,6 @@
+name - Ігор Хом'як
+
+1)provider_id
+2)avarage_age
+3)male_beneficiaries
+4)female_beneficiaries 
