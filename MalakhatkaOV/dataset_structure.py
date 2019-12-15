@@ -1,17 +1,17 @@
 dataset = {
     '21' :{
-        'status':True,
-        'mode':'w',
-        'sec_num':'123421'
+        'status':'Good',
+        'borocode':1,
+        'wire_other':'Yes'
     },
     '22':{
-        'status':False,
-        'mode':'w',
-        'sec_num':'514264'
+        'status':'Good',
+        'borocode':1,
+        'wire_other':'Yes'
     },
     '23':{
-        'status':False,
-        'mode':'m',
-        'sec_num':'64423234'
-    }
+        'status':'Poor',
+        'borocode':2,
+        'wire_other':'Yes'
+    },
 }
