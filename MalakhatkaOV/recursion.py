@@ -1,6 +1,6 @@
 def wire_cont(ds, iter=0, count=0, borough=1):
     i = 0
-    for tree in ds:
+    for tree in ds.values:
         if iter >= i:
             i += 1
             continue
