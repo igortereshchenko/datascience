@@ -2,11 +2,11 @@ import re
 
 
 def horz_plant_validator(arg):
-    return bool(re.fullmatch('(yes)|(no)', arg))
+    return bool(re.fullmatch('(Yes)|(No)', arg))
 
 
 def wire_other_validator(arg):
-    return bool(re.fullmatch('(yes)|(no)', arg))
+    return bool(re.fullmatch('(Yes)|(No)', arg))
 
 
 def borocode_validator(arg):
