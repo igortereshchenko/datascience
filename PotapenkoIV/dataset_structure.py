@@ -17,5 +17,4 @@ dataset = {
         "spc_latin":"GLEDITSIA TRIACANTHOS",
         "horz_other":"No"
     }
-
 }
