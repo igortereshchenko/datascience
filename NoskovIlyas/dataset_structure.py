@@ -1,28 +1,28 @@
+Spc_common, Horz_grate, Cen_year={'spc_common', 'horz_grate', 'cen_year'}
+
 data_set = {
     'Bronx':
             {
-            'spc_common':{
+            Spc_common:{
                             'London Planetree'
                             },
-            'horz_grate':'no',
-            'cen_year':2005
+            Horz_grate:'no',
+            Cen_year:2005
             },
     'Jamaica':
         {
-            'spc_common': {
+            Spc_common: {
                             'ELM, Other'
                             },
-            'horz_grate': 'no',
-            'cen_year':2006
+            Horz_grate: 'no',
+            Cen_year:2006
         },
     'New York':
         {
-            'spc_common': {
+            Spc_common: {
                             'Honeylocust'
                             },
-            'horz_grate': 'no',
-            'cen_year':2005
+            Horz_grate: 'no',
+            Cen_year:2005
         },
 }
-
-
