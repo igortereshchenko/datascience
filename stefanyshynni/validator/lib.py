@@ -1,42 +1,25 @@
-import re
+from re import match
 
-def name_validator():
-    name = input("Введіть назву:")
-    if bool(re.match("^(([A-Z]{1}([a-z]*)((\')?[a-z]*)(\,)?(\s)?)*)$", name)):
-        pass
-    else:
-        print("Назва введена неправильно!")
-        return name_validator()
-    name.split()
-    return name
+def name_validator(name):
+    return bool(match("^(([A-Z]{1}([a-z]*)((\')?[a-z]*)(\,)?(\s)?)*)$", name))
 
-def brand_validator():
-    brand = input("Введіть бренд:")
-    if bool(re.match("^(([A-Z]+([a-z]*)((\')?[a-z]*)(\s)?(\&)?(\s)?)*)$", brand)):
-        pass
-    else:
-        print("Бренд введена неправильно!")
-        return brand_validator()
-    brand.split()
-    return brand
 
-def sizes_validator():
-    sizes = input("Введіть розміри взуття:")
-    if bool(re.match("^([0-9]+((\.)?[0-9]*)(\,)?(\s)?)+$", sizes)):
-        pass
+def brand_validator(data, separator=" "):
+    pattern = "^(([A-Z]+([a-z]*)((\')?[a-z]*)(\s)?(\&)?(\s)?)*)$"
+    if isinstance(data, str):
+        data = data.split(separator)
+    if isinstance(data, list):
+        for element in data:
+            if not match(pattern, element):
+                return False
+        return True
     else:
-        print("Розміри введено неправильно!")
-        return sizes_validator()
-    sizes.split()
-    return sizes
+        return False
 
-def merchants_validator():
-    merchants = input("Покупець:")
-    if bool(re.match("^(([A-Z]+([a-z]*)((\')?([a-z]*)(\.)?[a-z]*)(\s)?)*)$", merchants)):
-        pass
-    else:
-        print("Інформація  введена неправильно!")
-        return merchants_validator()
-    merchants.split()
-    return merchants
+def sizes_validator(sizes):
+    return bool(match("^([0-9]+((\.)?[0-9]*)(\,)?(\s)?)+$", sizes))
+
+
+def merchants_validator(merchants):
+    return bool(match("^(([A-Z]+([a-z]*)((\')?([a-z]*)(\.)?[a-z]*)(\s)?)*)$", merchants))
 
