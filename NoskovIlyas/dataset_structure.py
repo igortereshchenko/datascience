@@ -1,26 +1,28 @@
 data_set = {
-    'zip_city':
-            [
-            'Bronx',
-            'Jamaica',
-            'New York'
-            ],
-    'horz_grate':
-            [
-            'no',
-            'no',
-            'no'
-            ],
-    'spc_common':
-            [
-            'LONDON PLANETREE',
-            'ELM, OTHER',
-            'HONEYLOCUST'
-            ],
-    'cen_year':
-            [
-            '2005',
-            '2006',
-            '2006',
-            ],
+    'Bronx':
+            {
+            'spc_common':{
+                            'London Planetree'
+                            },
+            'horz_grate':'no',
+            'cen_year':2005
+            },
+    'Jamaica':
+        {
+            'spc_common': {
+                            'ELM, Other'
+                            },
+            'horz_grate': 'no',
+            'cen_year':2006
+        },
+    'New York':
+        {
+            'spc_common': {
+                            'Honeylocust'
+                            },
+            'horz_grate': 'no',
+            'cen_year':2005
+        },
 }
+
+
