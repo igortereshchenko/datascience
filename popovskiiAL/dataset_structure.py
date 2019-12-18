@@ -10,7 +10,6 @@ dataset = {
                 "cb_num": "0",
                 "borocode": "4",
                 "nta_name": "Queens"
-
               },
     "641807": {
                 "zip_city": "New York",
