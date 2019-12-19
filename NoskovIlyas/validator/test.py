@@ -1,4 +1,4 @@
-import KoretsOleksandr.validator.lib as lib
+import NoskovIlyas.validator.lib as lib
 
 assert lib.key_valid('Bronx') is True
 assert lib.key_valid('12') is False
