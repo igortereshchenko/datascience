@@ -1,0 +1,4 @@
+status : стан дерев (type : str)
+inf_shoes : наявність взуття (type : str)
+zipcode : поштовий індекс (type : int)
+trunk_dmg : опис пошкоджень дерев (type : str)

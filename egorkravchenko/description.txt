@@ -1,0 +1,10 @@
+provider_id - The 6-digit identification number for the home health agency on the claim.
+
+zip_code - The home health agency’s zip code, as reported in the POS file.
+
+distinct_beneficiaries_non_lupa - Number of distinct Medicare beneficiaries receiving at least one non-LUPA home health 
+episode in the calendar year. Beneficiaries may receive multiple home health episodes per year 
+but are only counted once in this field.
+
+average_number_of_total_visits_per_episode_non_lupa - Average number of total visits provided by the HHA during a non-LUPA episode.
+

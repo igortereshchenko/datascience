@@ -1,0 +1,4 @@
+flavors - (uuid) id for flavors
+count - (number) id for quantity
+categories - (list) string for to describe from category this goods
+brand - (list) string for to describe from which brand this goods

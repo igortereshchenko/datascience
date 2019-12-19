@@ -1,0 +1,4 @@
+numbers_reviews - number of reviews (type - integer)
+beds - number of beds (type - integer)
+host_id - individual number of the person (type - integer)
+country - the name of the country (type - string)

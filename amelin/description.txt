@@ -1,0 +1,4 @@
+host_name - imya hosta
+host.identity_verified - proverka na true false dlya ident. hosta
+host_is_superhost - est li host super
+street - mesto gde nahoditsa host
