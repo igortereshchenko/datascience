@@ -9,10 +9,10 @@ assert lib.spc_valid('321321312') is False
 assert lib.spc_valid('Honeylocust Elm Planetree') is True
 assert lib.spc_valid('Hone23121') is False
 
-assert lib.horzgr('yes') is True
-assert lib.horzgr('no') is True
-assert lib.horzgr('3213') is False
-assert lib.horzgr('Bronx') is True
+assert lib.horzgr_valid('yes') is True
+assert lib.horzgr_valid('no') is True
+assert lib.horzgr_valid('3213') is False
+assert lib.horzgr_valid('Bronx') is True
 
 assert lib.year_valid('2001') is True
 assert lib.year_valid('no') is False
