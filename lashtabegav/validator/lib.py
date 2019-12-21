@@ -23,4 +23,8 @@ def review_scores_value_validator(review_scores_value):
     else:
         return False
 
-# host_id генерируется, его проверять не придется
+def host_id_validator(host_id):
+    if isinstance(host_id, int) and 0 <= host_id < 1000000:
+        return True
+    else:
+        return False
