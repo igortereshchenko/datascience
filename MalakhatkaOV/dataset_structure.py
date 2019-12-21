@@ -1,17 +1,17 @@
 dataset = {
-    'Good': {
+    '3': {
         'horz_plants': 'Yes',
-        'borocode': 1,
+        'status': 1,
         'wire_other': 'Yes'
     },
-    'Excellent': {
+    '2': {
         'horz_plants': 'Yes',
-        'borocode': 1,
+        'status': 1,
         'wire_other': 'Yes'
     },
-    'Dead': {
+    '1': {
         'horz_plants': 'Yes',
-        'borocode': 2,
+        'status': 2,
         'wire_other': 'Yes'
     },
 }
