@@ -1,0 +1,4 @@
+provider_id - The 6-digit identification number for the home health agency on the claim.
+state - The state where the home health agency is located, as reported in POS file. The fifty U.S. states and the District of Columbia
+other_unknown_beneficiaries - Number of beneficiaries with race not elsewhere classified.
+percent_of_beneficiaries_with_alzheimers - Percent of beneficiaries meeting the CCW chronic condition algorithm for Alzheimer’s, related disorders, or dementia.

@@ -1,0 +1,7 @@
+host_url - url of host internet page
+host_since - date of registration of a host
+country - country of a host
+zipcode - postal code of a host
+country_code: code of host's country
+bed_type: type of offered bed
+price: price of an offer per night

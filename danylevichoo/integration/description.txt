@@ -1,0 +1,6 @@
+﻿name - (type:str) - Назва апартаментів у яких запропонавано проживання
+host-id - (type:int) - id хоста 
+bed-type - (type:str) - тип ліжка
+price - (type:float) - ціна за ніч
+extra-people - (type:float) - додаткова ціна за людину
+country -(type:str) - назва країни у якій розташовані апартаменти(U.S. для усіх)
