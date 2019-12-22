@@ -1,0 +1,4 @@
+country_code - unique cose of country(str)
+host_id - the 6-8-digit identification code of country(int)
+price - price of the bed(float)
+bed_type - type of bed(str)

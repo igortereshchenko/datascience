@@ -1,0 +1,4 @@
+provider_id-The 6-digit identification number for the home health agency on the claim.
+state-The state where the home health agency is located, as reported in POS file. The fifty U.S. states and the District of Columbia 
+asian_pacific_islander_beneficiaries-Number of Asian Pacific Islander beneficiaries.
+hispanic_beneficiaries-Number of Hispanic beneficiaries.

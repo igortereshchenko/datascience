@@ -1,0 +1,4 @@
+provider id - The 6-digit identification number for the home health agency on the claim (int)
+agancy_name - The home health agency name, as reported in the POS file (str)
+avarage_hcc_score - Average Hierarchical Condition Category (HCC) risk score of beneficiaries. Please refer to the “Additional (float)
+percent_of_beneficiaries_with_asthma - Percent of beneficiaries meeting the CCW chronic condition algorithm for Asthma (int)

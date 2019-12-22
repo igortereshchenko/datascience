@@ -1,0 +1,4 @@
+name - (type:str)Name of the appartmants(hotel,house), which is proposed for living.
+bed-type -(type:str) bed-type in hotel-room
+price -(type:str)5-6 digit price of the 1 night in this hotel
+country -(type:str)Name of the country,where hotel is located(U.S. for all)

@@ -1,0 +1,6 @@
+1. provider_id - (type - int) - The 6-digit identification number for the home health agency on the claim.
+2. zip_code - (type - int) - The home health agency’s zip code, as reported in the POS file.
+3. percent_of_beneficiaries_with_ra_oa - (type - int) - Percent of beneficiaries meeting the CCW chronic condition
+algorithm for rheumatoid arthritis/osteoarthritis.
+4. percent_of_beneficiaries_with_stroke - (type - int) - Percent of beneficiaries meeting the CCW chronic condition
+algorithm for stroke.
