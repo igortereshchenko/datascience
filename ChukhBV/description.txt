@@ -1,0 +1,4 @@
+1.neighbourhood -- something, that have territorial conection with certain object.
+2.state -- big part of country, with cities and villages, it have borders.
+3.market -- an area in which commercial dealings are conducted.
+4.country -- large territory with political, geographical and historical borders, where people live.

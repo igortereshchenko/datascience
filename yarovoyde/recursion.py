@@ -1,9 +1,13 @@
-def recursion(dataset):
-    for provider_id in dataset.keys():
-        city = dataset[provider_id]['city']
-        percent_cancer = int(dataset[provider_id]['percent_of_beneficiaries_with_cancer'])
-        percent__diabetes = int(dataset[provider_id]['percent_of_beneficiaries_with_diabetes'])
-        if (percent_cancer > 10) or (percent__diabetes > 50) or (percent_cancer>5 and percent__diabetes> 20):
-            print('\n\nProvider ID: '+str(provider_id)
-                  +'\nCity: ' + city
-                  +'\nPercent of beneficiaries with cancer: '+str(percent_cancer)+'\n')
+def recursion(dataset, n=0,keys=[]):
+    if keys==[]:
+        keys = list(dataset.keys())
+        return recursion(dataset, n, keys)
+    if n==len(dataset):
+        return None
+    if dataset[keys[n]]["percent_of_beneficiaries_with_cancer"]>10 or 
+    dataset[keys[n]]["percent_of_beneficiaries_with_diabetes"]> 50 or 
+    (dataset[keys[n]]["percent_of_beneficiaries_with_cancer"]> 5 and 
+     dataset[keys[n]]["percent_of_beneficiaries_with_diabetes"]> 20) :
+        for elements in dataset[keys[n]]:
+            print(elements + str(dataset[keys[n]][elements]))
+    recursion(dataset,n+1,keys)

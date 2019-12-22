@@ -1,0 +1,4 @@
+1) id - унікальний код взуття (string)
+2) brand - бренд взуття (string)
+3) colors - колір взуття (string)
+4) flavors - аромат взуття (string)
