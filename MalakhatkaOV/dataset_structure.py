@@ -1,17 +1,17 @@
 dataset = {
     '3': {
         'horz_plants': 'Yes',
-        'status': 1,
+        'status': 'Dead',
         'wire_other': 'Yes'
     },
     '2': {
         'horz_plants': 'Yes',
-        'status': 1,
+        'status': 'Dead',
         'wire_other': 'Yes'
     },
     '1': {
         'horz_plants': 'Yes',
-        'status': 2,
+        'status': 'Excellent',
         'wire_other': 'Yes'
     },
 }
