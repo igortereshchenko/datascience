@@ -1,12 +1,22 @@
+STATUS, WIRE_HTAP, BOROCODE = ('status', 'wire_htap', 'borocode')
+
 dataset = {
-    'PLATANUS ACERIFOLIA': {'status': 'good',
-                            'wire_htap': 'Yes',
-                            'borocode': 2},
-    'ULMUS SPECIES' : {'status': 'good',
-                       'wire_htap': 'No',
-                       'borocode': 4},
-    'GLEDITSIA TRIACANTHOS' : {'status':
-                                   'excellent',
-                               'wire_htap': 'No',
-                               'borocode': 1}
+
+    'PLATANUS ACERIFOLIA': {
+        STATUS: 'good',
+        WIRE_HTAP: 'Yes',
+        BOROCODE: 2
+        },
+
+    'ULMUS SPECIES' : {
+        STATUS: 'good',
+        WIRE_HTAP: 'No',
+        BOROCODE: 4
+        },
+
+    'GLEDITSIA TRIACANTHOS' : {
+        STATUS:'excellent',
+        WIRE_HTAP: 'No',
+        BOROCODE: 1
+        }
 }

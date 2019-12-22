@@ -24,5 +24,5 @@ dataset = {
         CEN_YEAR: 2006,
         INF_OTHER: False,
         ZIP_CITY: ["Flushing"]
-    },
+    }
 }
