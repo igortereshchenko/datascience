@@ -1,0 +1,13 @@
+def recursion(dataset_copy):
+    if len(dataset_copy) == 0:
+        return None
+    else:
+        for provider_id in dataset_copy.keys():
+            zip_code = int(dataset_copy[provider_id]['zip_code '])
+            average_number_of_total_visits_per_episode_non_lupa = float(dataset_copy[provider_id]['average_number_of_total_visits_per_episode_non_lupa'])
+            condition1 = float(dataset_copy[provider_id]['average_number_of_total_visits_per_episode_non_lupa']) > 10
+            condition2 = int(dataset_copy[provider_id]['distinct_beneficiaries_non_lupa']) > 3
+            if condition1 or condition2:
+                del dataset_copy[provider_id]
+                print('Provider ID: '+ str(provider_id) +'\nZip_code: ' + str(zip_code) +'\nAverage_number_of_total_visits_per_episode_non_lupa:' + str(average_number_of_total_visits_per_episode_non_lupa) + "\n")
+                return recursion(dataset_copy)
