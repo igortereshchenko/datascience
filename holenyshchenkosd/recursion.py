@@ -4,13 +4,16 @@ def filtr(dct= dataset, filtered= {}):
     for i in dct.items():
         if type(i[1]) == dict:
             a = i[0]
-            # print(i[0])
             filtr(i[1], filtered)
-        elif i[0] == 'percent_of_beneficiaries_with_cancer' and i[1] > 10:
-            # print(i, a)
-            filtered[a] = i
+        elif i[0] == 'state':
+            state = {i[0]: i[1]}
+        elif i[0] == 'percent_of_beneficiaries_with_cancer':
+            cancer = {i[0]: i[1]}
+            if i[1] > 10:
+                filtered[a] = cancer
 
         elif i[0] == 'percent_of_beneficiaries_with_depression' and i[1] > 20:
-            # print(i, a)
-            filtered[a] = i
+            depression = {i[0]: i[1]}
+            filtered[a] = state, cancer, depression
+
     return filtered
