@@ -10,7 +10,7 @@ def filtr(dct= dataset, filtered= {}):
         elif i[0] == 'percent_of_beneficiaries_with_cancer':
             cancer = {i[0]: i[1]}
             if i[1] > 10:
-                filtered[a] = cancer
+                filtered[a] = state, cancer, depression
 
         elif i[0] == 'percent_of_beneficiaries_with_depression' and i[1] > 20:
             depression = {i[0]: i[1]}
