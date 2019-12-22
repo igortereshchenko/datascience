@@ -1,0 +1,4 @@
+skus - Stock Keeping Unit (URL references for storage), dict
+quantities - URL references for quantities of all types of shoes(dict)
+brand - string of brand shoes
+prices.count -  value of price

@@ -1,0 +1,4 @@
+provider_id - (type: int) the 6-digit identification number for the home health agency on the claim
+city - (type: str) The city where the home health agency is located, as reported in the POS file.
+percent_of_beneficiaries_with_cancer - (type: int) Percent of beneficiaries meeting the CCW chronic condition algorithms for cancer. Includes breast cancer, colorectal cancer
+percent_of_beneficiaries_with_diabetes - (type: int)Percent of beneficiaries meeting the CCW chronic condition algorithm for diabetes.

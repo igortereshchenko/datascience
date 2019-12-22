@@ -1,0 +1,4 @@
+provider_id - (type: int) the 6-digit identification number for the home health agency on the claim
+state - (type: str) The state where the home health agency is located, as reported in POS file. The fifty U.S. states and the District of Columbia
+percent_of_beneficiaries_with_depression - (type: int) Percent of beneficiaries meeting the CCW chronic condition algorithm for depression.
+percent_of_beneficiaries_with_hyperlipidemia - (type: int) Percent of beneficiaries meeting the CCW chronic condition algorithm for hyperlipidemia.

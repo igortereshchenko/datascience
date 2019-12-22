@@ -1,0 +1,4 @@
+Keys - Link to listing
+Asins - Unique Amazon id
+Name - Name of listing
+Sizes - Shoe size
