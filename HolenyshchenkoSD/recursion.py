@@ -2,14 +2,20 @@
 # percent_of_beneficiaries_with_cancer > 10 or percent_of_beneficiaries_with_depression > 20.
 
 
-def filter(dct):
-    for a in dct.items():
-        if type(a[1]) == dict:
-            filter(a[1])
-        elif a[0] == 'percent_of_beneficiaries_with_cancer' and a[1] > 10:
-            print(dct)
-        elif a[0] == 'percent_of_beneficiaries_with_depression' and a[1] > 20:
-            print(dct)
+def filtr(dct, origdict, d):
+    global a
 
+    for i in dct.items():
+        if type(i[1]) == dict:
+            a = i[0]
+            # print(i[0])
+            filtr(i[1], dataset, d)
+        elif i[0] == 'percent_of_beneficiaries_with_cancer' and i[1] > 10:
+            # print(i, a)
+            d[a] = i
 
-filter(data_set)
+        elif i[0] == 'percent_of_beneficiaries_with_depression' and i[1] > 20:
+            # print(i, a)
+            d[a] = i
+    return d
+
