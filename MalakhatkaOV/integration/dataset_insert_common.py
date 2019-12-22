@@ -1,5 +1,5 @@
 from MalakhatkaOV.validator.lib import *
-    from TernytskaNO.validator.lib import *
+from TernytskaNO.validator.lib import *
 from MalakhatkaOV.integration.dataset_structure_common import dataset
 
 
