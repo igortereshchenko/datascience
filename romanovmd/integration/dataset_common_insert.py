@@ -1,6 +1,9 @@
 from romanovmd.validator.lib import *
-from burdenkods.validator.lib import *
+from burdenkods.validator.lib import keys_validator
 from romanovmd.integration.dataset_structure_common import dataset
+
+def fixed_asins_validator(text: str) -> bool:
+     return bool(re.fullmatch(r"^((([A-Z]|[0-9]){10})|(None))?(,([A-Z]|[0-9]){10})*$", text))
 
 
 def get_keys(prompt):
@@ -11,7 +14,7 @@ def get_keys(prompt):
 
 def get_asins(prompt):
     asins = input(prompt)
-    while not asins_validator(asins):
+    while not fixed_asins_validator(asins):
         asins = input(prompt)
     return str(asins)
 
