@@ -1,0 +1,4 @@
+number_of_reviews - кількість переглядів
+review_scores_value - оцінка користувача
+host_id - id хосту
+country - країна

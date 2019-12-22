@@ -1,0 +1,4 @@
+provider_id - the 6-digit identification number for the home health agency (type - integer)
+agency_name - the home health agency name (type - string)
+street_adress - the home health agency address (type - string)
+city - the city where the home health agency is located (type - string)

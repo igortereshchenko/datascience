@@ -1,0 +1,4 @@
+provider_id (str) - The 6-digit identification number for the home health agency on the claim.
+city (str) - The city where the home health agency is located, as reported in the POS file.
+total_lupa_episodes (int) - Total count of low utilization payment amount episodes provided by a specific HHA in the calendar year.
+average_age (int) - Average age of beneficiaries. Beneficiary age is calculated at the end of the calendar year or at the time of death.
