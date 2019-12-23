@@ -1,7 +1,7 @@
 new_dataset = {
     "New York": {
-
-        "cen_year": "2005"
+        "cb-num": "0"
+        ,"cen_year": "2005"
         ,"wire_prime":"No"
         ,"sidw_crack":"No"
         ,"status":"Good"
@@ -9,8 +9,8 @@ new_dataset = {
 
     }
     ,'Jamaica': {
-
-    "cen_year": "2006"
+    "cb-num": "0"
+    ,"cen_year": "2006"
     ,"wire_prime":"No"
     , "sidw_crack":"No"
     , "status":"Good"
@@ -18,8 +18,8 @@ new_dataset = {
 
     }
     ,'Bronx': {
-
-        "cen_year": "2005"
+         "cb-num": "0"
+        ,"cen_year": "2005"
         ,"wire_prime": "No"
         ,"sidw_crack":"No"
         ,"status":"Good"
