@@ -1,5 +1,5 @@
-from RyzhkovaDO.validator.lib import *
-from RyzhkovaDO.integration.validator_lib_NoskovIlyas import *
+from RyzhkovaDO.validator.lib import*
+from RyzhkovaDO.integration.validator_lib_NoskovIlyas import*
 
 dataset = {
            698612:{

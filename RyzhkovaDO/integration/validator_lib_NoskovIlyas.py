@@ -12,7 +12,7 @@ def key_valid(var):
         text=input(var)
     return text
 
-#print(key_valid('input zip_city: '))
+ #print(key_valid('input zip_city: '))
 
 
 def spc_valid(var1):
