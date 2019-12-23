@@ -1,0 +1,4 @@
+guests_included - (type: int) number of people in each room
+amenities - (type: set) set of services (Internet,"Wireless Internet",Kitchen,"Free Parking on Premises",Heating,Washer,Dryer)
+room_type - (type: str) type of apartment  (Entire home/ Private room)
+host_id - (type: str) the identification number for each person

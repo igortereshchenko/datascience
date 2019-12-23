@@ -1,0 +1,17 @@
+dataset={
+    '747203':{
+        "city":"HOUSTON",
+        "percent_of_benefciaries_with_osteoporosis":0,
+        "percent_of_beneficiaries_with_schizophrenia":23
+    },
+    '747016':{
+        "city":"RICHMOND",
+        "percent_of_benefciaries_with_osteoporosis":3,
+        "percent_of_beneficiaries_with_schizophrenia":26
+    },
+    '747145':{
+        "city":"RICHMOND",
+        "percent_of_benefciaries_with_osteoporosis":6,
+        "percent_of_beneficiaries_with_schizophrenia":24
+    },
+}
