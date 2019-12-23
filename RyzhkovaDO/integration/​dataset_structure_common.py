@@ -5,7 +5,7 @@ dataset = {
                 ,'zipcode': 10471
                 ,'borocode': 2
                 ,'zip_city': "Bronx"
-                ,'horz_grate': "No"
+                ,'horz_grate': "no"
                 ,'spc_common': "London Planetree"
                      }
                   }
@@ -15,7 +15,7 @@ dataset = {
                 ,'zipcode': 11432
                 ,'borocode': 4
                 ,'zip_city': "Jamaica"
-                ,'horz_grate': "No"
+                ,'horz_grate': "no"
                 ,'spc_common': "Elm, oter"
                      }
                    }
@@ -25,7 +25,7 @@ dataset = {
                 ,'zipcode': 10007
                 ,'borocode': 1
                 ,'zip_city': "New York"
-                ,'horz_grate': "No"
+                ,'horz_grate': "no"
                 ,'spc_common': "Honeylocust"
                      }
                    }
