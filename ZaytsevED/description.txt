@@ -1,0 +1,4 @@
+provide_id - The 6-digit identification number for the home health agency on the claim.
+state - The state where the home health agency is located, as reported in POS file. The fifty U.S. states and the District of Columbia 
+white_beneficiaries - Number of non-Hispanic white beneficiaries.
+black_beneficiaries - Number of non-Hispanic black or African American beneficiaries.

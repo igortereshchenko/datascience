@@ -1,0 +1,4 @@
+1) provider_id - type int - The 6-digit identification number for the home health agency on the claim.
+2) city - type string - The city where the home health agency is located, as reported in the POS file.
+3) percent_of_beneficiaries_with_hypertension - type int - Percent of beneficiaries meeting the CCW chronic condition algorithm for hypertension.
+4) percent_of_beneficiaries_with_osteoporosis - type int - Percent of beneficiaries meeting the CCW chronic condition algorithm for osteoporosis.

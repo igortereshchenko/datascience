@@ -1,0 +1,4 @@
+provider_id - ідентифікатор провайдера,the 6-digit identification number for the home health agency on the claim.
+zip_code - поштовий індекс агентства охорони здоров'я,the home health agency’s zip code, as reported in the POS file.
+percent_of_beneficiaries_with_copd -відсоток бенефіціарів при хронічному обструктивному захворюванні легень, percent of beneficiaries meeting the CCW chronic condition algorithm for chronic obstructive pulmonary disease.
+percent_of_beneficiaries_with_hypertension -відсоток бенефіціарів при гіпертонії. percent of beneficiaries meeting the CCW chronic condition algorithm for hypertension.
