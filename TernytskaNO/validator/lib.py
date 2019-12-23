@@ -10,4 +10,4 @@ def cen_year_validator(text):
     return bool(re.match(r"^\d{4}$",text))
 
 def  wire_prime_validator(text):
-    return bool(re.match(r"^(Yes)$|^(No)$", text))
+    return bool(re.match(r"^(yes)$|^(no)$", text))
