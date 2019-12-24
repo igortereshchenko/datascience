@@ -1,20 +1,7 @@
 from torbaso.validator.lib import *
-from torbaso.integration.dataset_structure_common import dataset
+from torbaso.dataset_structure import dataset
+from danylevichoo.validator.lib import extra_people_validator,host_id_validator
 import re
-
-#Функції з якими відбувається інтеграція(Данилевича)
-def extra_people_validator(extra):
-    while not re.match('^[+]?\d+[.]?\d{,2}$', extra):
-        extra=input("Enter valid extra-price:")
-    return extra
-
-
-def host_id_validator(host_id):
-    while not re.match('^[+]?\d+$', host_id):
-        host_id=input("Enter valid host-id: ")
-    return int(host_id)
-
-
 
 
 country =input('Enter country name')
