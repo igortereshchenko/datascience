@@ -1,0 +1,8 @@
+
+provider_id - The 6-digit identification number for the home health agency on the claim.
+
+zip_code - The home health agency’s zip code, as reported in the POS file.
+
+average_age - Average age of beneficiaries. Beneficiary age is calculated at the end of the calendar year or at the time of death.
+
+percent_of_beneficiaries_with_stroke - Percent of beneficiaries meeting the CCW chronic condition algorithm for stroke.
