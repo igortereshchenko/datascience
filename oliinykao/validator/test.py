@@ -1,9 +1,5 @@
 from oliinykao.validator.lib import *
-id = input("Введіть id - ")
-print(id_validator(id))
-brand = input("Введіть brand - ")
-print(brand_validator(brand))
-colors = input("Введіть colors - ")
-print(colors_validator(colors))
-flavors = input("Введіть flavors - ")
-print(flavors_validator(flavors))
+print(id_validator("Введіть id: "))
+print(brand_validator("Введіть brand: "))
+print(colors_validator("Введіть colors: "))
+print(flavors_validator("Введіть flavors: "))
