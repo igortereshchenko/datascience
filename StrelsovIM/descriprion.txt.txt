@@ -1,0 +1,4 @@
+provider_id - ID клініки
+agency_name - назва клініки
+male_beneficiaries - чоловіки
+female_beneficiaries - жінки
