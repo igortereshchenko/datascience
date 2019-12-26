@@ -1,4 +1,4 @@
-import Maistruk.validator.lib as lib
+import maistrukia.validator.lib as lib
 
 print("\ninf-canopy test --> Yes = ", lib.inf_canopy_validator("Yes"))
 print("inf-canopy test --> nope = ", lib.inf_canopy_validator("nope"), end="\n\n")

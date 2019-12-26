@@ -1,4 +1,4 @@
-import Maistruk.dataset_structure as mds
+import maistrukia.dataset_structure as mds
 
 def add(dataset, cb_num, inf_c, inf_s, zip_city="Bronx"):
     if zip_city not in dataset.keys():

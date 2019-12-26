@@ -1,4 +1,4 @@
-import Maistruk.dataset_structure as mds
+import maistrukia.dataset_structure as mds
 
 def canopy_counter(dataset, can_status):
     if len(dataset)>0:
