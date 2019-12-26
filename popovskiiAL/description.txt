@@ -1,0 +1,4 @@
+zip_city -- (type: string) Город, полученный из zipcode.
+cb_num -- (type: int) Доска сообщества, в которую падает дерево.
+borocode -- (type: int) Район, в котором находится дерево, используется районный код длинной в одну цифру: 1 – Manhattan, 2 – Bronx, 3 – Brooklyn, 4 – Queens, 5 – Staten Island.
+boroname -- (type: string) Район, в котором дерево находится, полный текст
